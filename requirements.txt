@@ -4,3 +4,4 @@ torch>=2.0.0
 transformers>=4.41.0
 numpy
 scipy
+gunicorn==21.2.0
