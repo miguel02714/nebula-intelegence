@@ -1,0 +1,732 @@
+  [
+    {"pergunta": "Ola", "resposta": "Oi, no que posso lhe ajudar"},
+    {"pergunta": "Qual é a capital da França?", "resposta": "Paris"},
+    {"pergunta": "Quem descobriu o Brasil?", "resposta": "Pedro Álvares Cabral"},
+    {"pergunta": "Quem escreveu 'Dom Quixote'?", "resposta": "Miguel de Cervantes"},
+    {"pergunta": "Qual é a velocidade da luz?", "resposta": "aproximadamente 299.792 km/s"},
+    {"pergunta": "Quem é conhecido como o pai da física moderna?", "resposta": "Albert Einstein"},
+    {"pergunta": "Qual é o maior planeta do sistema solar?", "resposta": "Júpiter"},
+    {"pergunta": "O que é fotossíntese?", "resposta": "Processo pelo qual plantas produzem energia usando luz solar, CO2 e água"},
+    {"pergunta": "Quem pintou a Mona Lisa?", "resposta": "Leonardo da Vinci"},
+    {"pergunta": "Qual é o símbolo químico do ouro?", "resposta": "Au"},
+    {"pergunta": "O que é a teoria da relatividade?", "resposta": "É a teoria de Einstein que relaciona espaço, tempo e gravidade"},
+    {"pergunta": "Qual é a capital do Japão?", "resposta": "Tóquio"},
+    {"pergunta": "Quem escreveu 'Hamlet'?", "resposta": "William Shakespeare"},
+    {"pergunta": "Qual é a principal função dos rins?", "resposta": "Filtrar o sangue e produzir urina"},
+    {"pergunta": "Qual é a fórmula do ácido sulfúrico?", "resposta": "H2SO4"},
+    {"pergunta": "Quem foi Isaac Newton?", "resposta": "Cientista inglês que formulou as leis da física clássica"},
+    {"pergunta": "O que é eletricidade?", "resposta": "Movimento de cargas elétricas através de um condutor"},
+    {"pergunta": "Qual é o maior oceano do mundo?", "resposta": "Oceano Pacífico"},
+    {"pergunta": "Quem inventou a lâmpada elétrica?", "resposta": "Thomas Edison"},
+    {"pergunta": "Qual é a capital da Alemanha?", "resposta": "Berlim"},
+    {"pergunta": "Quem escreveu 'O Pequeno Príncipe'?", "resposta": "Antoine de Saint-Exupéry"},
+    {"pergunta": "Qual é a fórmula do sal de cozinha?", "resposta": "NaCl"},
+    {"pergunta": "Quem foi o primeiro homem a pisar na Lua?", "resposta": "Neil Armstrong"},
+    {"pergunta": "Qual é a velocidade do som?", "resposta": "aproximadamente 343 m/s no ar"},
+    {"pergunta": "O que é a gravidade?", "resposta": "Força que atrai os corpos uns aos outros"},
+    {"pergunta": "Qual é a capital da Itália?", "resposta": "Roma"},
+    {"pergunta": "Quem pintou a Capela Sistina?", "resposta": "Michelangelo"},
+    {"pergunta": "O que é uma célula?", "resposta": "Unidade básica da vida"},
+    {"pergunta": "Qual é o elemento químico com símbolo 'O'?", "resposta": "Oxigênio"},
+    {"pergunta": "Quem foi Nikola Tesla?", "resposta": "Inventor e engenheiro elétrico famoso por suas contribuições à eletricidade"},
+    {"pergunta": "Qual é a capital da Argentina?", "resposta": "Buenos Aires"},
+    {"pergunta": "O que é a lei da oferta e da procura?", "resposta": "Princípio econômico que define o preço de um produto pela oferta e demanda"},
+    {"pergunta": "Quem foi Charles Darwin?", "resposta": "Cientista que desenvolveu a teoria da evolução"},
+    {"pergunta": "Qual é o planeta mais próximo do Sol?", "resposta": "Mercúrio"},
+    {"pergunta": "Quem escreveu '1984'?", "resposta": "George Orwell"},
+    {"pergunta": "O que é a energia cinética?", "resposta": "Energia de um corpo devido ao seu movimento"},
+    {"pergunta": "Qual é a capital da Espanha?", "resposta": "Madrid"},
+    {"pergunta": "Quem inventou o telefone?", "resposta": "Alexander Graham Bell"},
+    {"pergunta": "O que é a tabela periódica?", "resposta": "Organização dos elementos químicos por propriedades"},
+    {"pergunta": "Qual é o maior deserto do mundo?", "resposta": "Sahara"},
+    {"pergunta": "Quem foi Platão?", "resposta": "Filósofo grego, aluno de Sócrates"},
+    {"pergunta": "O que é a relatividade especial?", "resposta": "Teoria de Einstein que descreve como espaço e tempo se comportam a altas velocidades"},
+    {"pergunta": "Qual é a capital da Rússia?", "resposta": "Moscou"},
+    {"pergunta": "Quem escreveu 'A Divina Comédia'?", "resposta": "Dante Alighieri"},
+    {"pergunta": "O que é DNA?", "resposta": "Molécula que carrega a informação genética dos seres vivos"},
+    {"pergunta": "Qual é a fórmula da glicose?", "resposta": "C6H12O6"},
+    {"pergunta": "Quem inventou o avião?", "resposta": "Irmãos Wright"},
+    {"pergunta": "Qual é a capital da China?", "resposta": "Pequim"},
+    {"pergunta": "O que é energia potencial?", "resposta": "Energia que um corpo possui devido à sua posição ou configuração"},
+    {"pergunta": "Quem foi Sócrates?", "resposta": "Filósofo grego, conhecido por ensinar pelo método de perguntas"},
+    {"pergunta": "O que é o Big Bang?", "resposta": "Teoria que descreve a origem e expansão do universo"},
+    {"pergunta": "O que é buraco negro?", "resposta": "Região do espaço com gravidade tão intensa que nada escapa, nem a luz"},
+    {"pergunta": "Quem foi Galileu Galilei?", "resposta": "Cientista italiano, considerado o pai da astronomia moderna"},
+    {"pergunta": "O que são eclipses solares?", "resposta": "Fenômeno em que a Lua bloqueia a visão do Sol para a Terra"},
+    {"pergunta": "Quem foi Marie Curie?", "resposta": "Cientista que descobriu o rádio e o polônio, pioneira em radioatividade"},
+    {"pergunta": "O que é a fotossíntese reversa?", "resposta": "Processo de liberação de CO2 pelas plantas à noite, diferente da fotossíntese usual"},
+    {"pergunta": "Quem foi Ada Lovelace?", "resposta": "Considerada a primeira programadora da história, trabalhou com Charles Babbage"},
+    {"pergunta": "O que é o efeito estufa?", "resposta": "Acúmulo de gases na atmosfera que aquece o planeta"},
+    {"pergunta": "Quem escreveu 'O Senhor dos Anéis'?", "resposta": "J.R.R. Tolkien"},
+    {"pergunta": "O que é a tectônica de placas?", "resposta": "Movimento das placas que formam a crosta terrestre"},
+    {"pergunta": "Quem foi Sigmund Freud?", "resposta": "Pai da psicanálise, estudou mente e comportamento humano"},
+    {"pergunta": "O que é antimateria?", "resposta": "Forma de matéria composta por partículas com cargas opostas à matéria comum"},
+    {"pergunta": "Quem foi Aristóteles?", "resposta": "Filósofo grego, aluno de Platão e professor de Alexandre, o Grande"},
+    {"pergunta": "O que é matéria escura?", "resposta": "Componente invisível do universo que exerce gravidade mas não emite luz"},
+    {"pergunta": "O que é quasar?", "resposta": "Objeto extremamente luminoso no centro de galáxias distantes, ligado a buracos negros supermassivos"},
+    {"pergunta": "Quem foi Leonardo da Vinci?", "resposta": "Artista e cientista renascentista, inventor e pintor da Mona Lisa"},
+    {"pergunta": "O que é o sistema imunológico?", "resposta": "Conjunto de células e órgãos que protegem o corpo contra doenças"},
+    {"pergunta": "O que é inteligência artificial?", "resposta": "Campo da ciência da computação que cria sistemas capazes de realizar tarefas inteligentes"},
+    {"pergunta": "Quem foi Alan Turing?", "resposta": "Matemático britânico considerado o pai da ciência da computação moderna"},
+    {"pergunta": "O que é a fotossíntese artificial?", "resposta": "Tecnologia que imita o processo das plantas para gerar energia a partir da luz solar"},
+    {"pergunta": "O que é um eclipse lunar?", "resposta": "Fenômeno em que a Terra fica entre o Sol e a Lua, projetando sua sombra na Lua"},
+    {"pergunta": "Quem foi Johannes Kepler?", "resposta": "Astrônomo alemão que formulou as leis do movimento planetário"},
+    {"pergunta": "O que é a pressão atmosférica?", "resposta": "Peso do ar sobre a superfície terrestre"},
+    {"pergunta": "Quem descobriu a penicilina?", "resposta": "Alexander Fleming"},
+    {"pergunta": "O que é um cometa?", "resposta": "Corpo celeste que gira ao redor do Sol, formado por gelo, poeira e rochas"},
+    {"pergunta": "Quem foi Confúcio?", "resposta": "Filósofo chinês que fundou uma escola de pensamento sobre ética e moral"},
+    {"pergunta": "O que é a camada de ozônio?", "resposta": "Camada da atmosfera que protege a Terra da radiação ultravioleta"},
+    {"pergunta": "Quem foi Hipócrates?", "resposta": "Médico grego considerado o pai da medicina"},
+    {"pergunta": "O que é a radiação cósmica?", "resposta": "Partículas de alta energia que vêm do espaço e atingem a Terra"},
+    {"pergunta": "Quem foi René Descartes?", "resposta": "Filósofo e matemático francês, criador do método cartesiano"},
+    {"pergunta": "O que é a biodiversidade?", "resposta": "Variedade de seres vivos em um ecossistema ou no planeta"},
+    {"pergunta": "Quem foi Johannes Gutenberg?", "resposta": "Inventor da imprensa de tipos móveis"},
+    {"pergunta": "O que é um supernova?", "resposta": "Explosão de uma estrela no fim de seu ciclo de vida"},
+    {"pergunta": "Quem foi Lao-Tsé?", "resposta": "Filósofo chinês, fundador do taoismo"},
+    {"pergunta": "O que é um átomo?", "resposta": "Menor unidade de um elemento químico que mantém suas propriedades"},
+    {"pergunta": "Quem foi James Clerk Maxwell?", "resposta": "Físico escocês que formulou as equações do eletromagnetismo"},
+    {"pergunta": "O que é um planeta anão?", "resposta": "Corpo celeste que orbita o Sol e tem forma esférica, mas não limpou sua órbita"},
+    {"pergunta": "Quem foi Archimedes?", "resposta": "Matemático e inventor grego conhecido por leis da alavanca e hidrostática"},
+    {"pergunta": "O que é uma estrela?", "resposta": "Corpo celeste que emite luz própria devido a reações nucleares em seu núcleo"},
+    {"pergunta": "Quem foi Florence Nightingale?", "resposta": "Pioneira da enfermagem moderna e reformadora de hospitais"},
+    {"pergunta": "O que é a teoria do Big Bounce?", "resposta": "Hipótese de que o universo passa por ciclos de expansão e contração"},
+    {"pergunta": "Quem foi Alfred Nobel?", "resposta": "Inventor da dinamite e fundador do Prêmio Nobel"},
+    {"pergunta": "O que é um quasar?", "resposta": "Objeto extremamente luminoso no centro de galáxias distantes"},
+    {"pergunta": "Quem foi Blaise Pascal?", "resposta": "Matemático e físico francês, estudou pressão e probabilidade"},
+    {"pergunta": "O que é a maré?", "resposta": "Elevação e queda periódica do nível do mar causada pela gravidade da Lua e do Sol"},
+    {"pergunta": "Quem foi Marco Polo?", "resposta": "Comerciante e explorador veneziano que viajou para a China"},
+    {"pergunta": "O que é o efeito Doppler?", "resposta": "Mudança na frequência de ondas devido ao movimento relativo da fonte e do observador"},
+    {"pergunta": "Quem foi Amelia Earhart?", "resposta": "Pioneira da aviação, primeira mulher a atravessar o Atlântico sozinha"},
+    {"pergunta": "O que é um exoplaneta?", "resposta": "Planeta que orbita uma estrela fora do sistema solar"},
+    {"pergunta": "Quem foi Sigmund Freud?", "resposta": "Pai da psicanálise, estudou o inconsciente e a mente humana"},
+    {"pergunta": "O que é a camada de Mantle da Terra?", "resposta": "Camada entre a crosta e o núcleo composta de rochas sólidas e parcialmente fundidas"},
+    {"pergunta": "Quem foi Yuri Gagarin?", "resposta": "Primeiro humano a viajar ao espaço"},
+    {"pergunta": "O que é a tectônica de placas?", "resposta": "Movimento das placas que formam a crosta terrestre"},
+    {"pergunta": "Quem foi Johannes Kepler?", "resposta": "Astrônomo que formulou as leis do movimento planetário"},
+    {"pergunta": "O que é a aurora boreal?", "resposta": "Luzes coloridas no céu produzidas por partículas solares interagindo com a atmosfera"},
+    {"pergunta": "Quem foi Malala Yousafzai?", "resposta": "Ativista paquistanesa pelo direito à educação feminina"},
+    {"pergunta": "O que é a camada de hidrosfera?", "resposta": "Todas as águas do planeta, incluindo oceanos, rios e lagos"},
+    {"pergunta": "Quem foi Alexander Fleming?", "resposta": "Descobridor da penicilina"},
+    {"pergunta": "O que é o efeito estufa?", "resposta": "Acúmulo de gases na atmosfera que aquece o planeta"},
+    {"pergunta": "Quem foi Carl Sagan?", "resposta": "Astrônomo e divulgador científico famoso pelo programa 'Cosmos'"},
+    {"pergunta": "O que é a Lua cheia?", "resposta": "Fase lunar em que a Lua está totalmente iluminada pelo Sol"},
+    {"pergunta": "Quem foi Rosalie Rayner?", "resposta": "Psicóloga que trabalhou com John B. Watson em experimentos de comportamento"},
+    {"pergunta": "O que é a corrente elétrica?", "resposta": "Fluxo de elétrons através de um condutor"},
+    {"pergunta": "Quem foi Gregor Mendel?", "resposta": "Monge que descobriu as leis da hereditariedade com ervilhas"},
+    {"pergunta": "O que é a biodiversidade marinha?", "resposta": "Variedade de espécies que vivem nos oceanos e mares"},
+    {"pergunta": "Quem foi Thomas Hobbes?", "resposta": "Filósofo inglês conhecido por sua obra 'Leviatã' sobre política e sociedade"},
+    {"pergunta": "O que é a energia nuclear?", "resposta": "Energia liberada pela fissão ou fusão de núcleos atômicos"},
+    {"pergunta": "Quem foi Rosalind Franklin?", "resposta": "Cientista que contribuiu para descobrir a estrutura do DNA"},
+    {"pergunta": "O que é a camada de litosfera?", "resposta": "Camada rígida externa da Terra formada por crosta e parte do manto"},
+    {"pergunta": "Quem foi Richard Feynman?", "resposta": "Físico teórico americano conhecido por contribuições à eletrodinâmica quântica"},
+    {"pergunta": "O que é um buraco de minhoca?", "resposta": "Hipótese de túnel no espaço-tempo que conecta pontos distantes do universo"},
+    {"pergunta": "Quem foi Niels Bohr?", "resposta": "Físico dinamarquês que desenvolveu o modelo atômico com níveis de energia"},
+    {"pergunta": "O que é a camada de estratosfera?", "resposta": "Camada da atmosfera acima da troposfera que contém a camada de ozônio"},
+    {"pergunta": "Quem foi Jane Goodall?", "resposta": "Primatóloga famosa por estudos com chimpanzés na Tanzânia"},
+    {"pergunta": "O que é o efeito Coriolis?", "resposta": "Desvio dos ventos e correntes causado pela rotação da Terra"},
+    {"pergunta": "Quem foi Benjamin Franklin?", "resposta": "Inventor, político e cientista americano, famoso pelo experimento com pipa e eletricidade"},
+    {"pergunta": "O que é a atmosfera terrestre?", "resposta": "Camada de gases que envolve a Terra e permite a vida"},
+    {"pergunta": "Quem foi Carl Linnaeus?", "resposta": "Cientista sueco conhecido por criar a classificação moderna dos seres vivos"},
+    {"pergunta": "Qual é a capital do Canadá?", "resposta": "Ottawa"},
+    {"pergunta": "O que é um átomo de carbono?", "resposta": "Elemento químico fundamental da química orgânica"},
+    {"pergunta": "Quem desenvolveu a primeira vacina contra a varíola?", "resposta": "Edward Jenner"},
+    {"pergunta": "Qual é o maior rio do mundo em volume de água?", "resposta": "Rio Amazonas"},
+    {"pergunta": "Quem foi Johannes Hevelius?", "resposta": "Astrônomo polonês que estudou estrelas e constelações"},
+    {"pergunta": "O que é a síndrome de Down?", "resposta": "Condição genética causada por uma cópia extra do cromossomo 21"},
+    {"pergunta": "Qual é a capital da Índia?", "resposta": "Nova Deli"},
+    {"pergunta": "Quem descobriu o oxigênio?", "resposta": "Joseph Priestley"},
+    {"pergunta": "O que é a velocidade orbital?", "resposta": "Velocidade necessária para um corpo permanecer em órbita"},
+    {"pergunta": "Quem foi Marie Tharp?", "resposta": "Geóloga e cartógrafa que ajudou a mapear o fundo dos oceanos"},
+    {"pergunta": "O que é a fotossíntese C4?", "resposta": "Tipo de fotossíntese que permite plantas em clima quente reduzir perda de água"},
+    {"pergunta": "Qual é a capital da Noruega?", "resposta": "Oslo"},
+    {"pergunta": "Quem inventou o código Morse?", "resposta": "Samuel Morse"},
+    {"pergunta": "O que é a teoria do caos?", "resposta": "Área da matemática que estuda sistemas sensíveis a condições iniciais"},
+    {"pergunta": "Quem foi Euclides?", "resposta": "Matemático grego, conhecido como o pai da geometria"},
+    {"pergunta": "O que é a energia potencial elástica?", "resposta": "Energia armazenada em um objeto deformado, como uma mola"},
+    {"pergunta": "Qual é o maior lago do mundo?", "resposta": "Mar Cáspio"},
+    {"pergunta": "Quem foi Alexander von Humboldt?", "resposta": "Cientista e explorador alemão que estudou ecossistemas e geografia"},
+    {"pergunta": "O que é a escala Richter?", "resposta": "Medida da magnitude de terremotos"},
+    {"pergunta": "Quem inventou a primeira calculadora mecânica?", "resposta": "Blaise Pascal"},
+    {"pergunta": "Qual é a capital da Turquia?", "resposta": "Ancara"},
+    {"pergunta": "O que é a teoria da evolução convergente?", "resposta": "Fenômeno em que espécies diferentes desenvolvem características semelhantes"},
+    {"pergunta": "Quem descobriu a penicilina acidentalmente?", "resposta": "Alexander Fleming"},
+    {"pergunta": "O que é uma supernova tipo Ia?", "resposta": "Explosão estelar de uma anã branca em sistema binário"},
+    {"pergunta": "Quem foi Rosalind Franklin?", "resposta": "Cientista que estudou a estrutura do DNA com difração de raios X"},
+    {"pergunta": "Qual é o maior deserto gelado do mundo?", "resposta": "Antártida"},
+    {"pergunta": "O que é a velocidade de escape?", "resposta": "Velocidade mínima para escapar da gravidade de um corpo celeste"},
+    {"pergunta": "Quem foi Gregor Mendel?", "resposta": "Monge que estudou genética com ervilhas"},
+    {"pergunta": "O que é a força centrípeta?", "resposta": "Força que mantém um objeto em movimento circular"},
+    {"pergunta": "Quem foi Tycho Brahe?", "resposta": "Astrônomo dinamarquês que fez observações precisas das estrelas"},
+    {"pergunta": "Qual é a capital do México?", "resposta": "Cidade do México"},
+    {"pergunta": "O que é um quark?", "resposta": "Partícula fundamental que compõe prótons e nêutrons"},
+    {"pergunta": "Quem desenvolveu a tabela periódica moderna?", "resposta": "Dmitri Mendeleev"},
+    {"pergunta": "O que é a anafilaxia?", "resposta": "Reação alérgica grave e potencialmente fatal"},
+    {"pergunta": "Quem foi Hypatia de Alexandria?", "resposta": "Matemática e filósofa do Egito antigo"},
+    {"pergunta": "Qual é a maior ilha do mundo?", "resposta": "Groenlândia"},
+    {"pergunta": "O que é a corrente de Foucault?", "resposta": "Correntes elétricas induzidas em condutores por campos magnéticos variáveis"},
+    {"pergunta": "Quem foi Michael Faraday?", "resposta": "Físico e químico britânico que estudou eletromagnetismo"},
+    {"pergunta": "O que é a camada de permafrost?", "resposta": "Solo permanentemente congelado em regiões polares"},
+    {"pergunta": "Quem foi Antoine Lavoisier?", "resposta": "Químico francês considerado o pai da química moderna"},
+    {"pergunta": "Qual é a capital do Chile?", "resposta": "Santiago"},
+    {"pergunta": "O que é a pressão osmótica?", "resposta": "Pressão que impede o fluxo de solvente através de uma membrana semipermeável"},
+    {"pergunta": "Quem inventou o telescópio refrator?", "resposta": "Hans Lippershey"},
+    {"pergunta": "O que é o efeito fotoelétrico?", "resposta": "Emissão de elétrons de um material quando iluminado por luz"},
+    {"pergunta": "Quem foi Ada Lovelace?", "resposta": "Matemática britânica considerada a primeira programadora"},
+    {"pergunta": "Qual é a maior cordilheira do mundo?", "resposta": "Cordilheira dos Andes"},
+    {"pergunta": "O que é a anisotropia do universo?", "resposta": "Diferença de propriedades físicas em diferentes direções no espaço"},
+    {"pergunta": "Quem foi Werner Heisenberg?", "resposta": "Físico que formulou o princípio da incerteza"},
+    {"pergunta": "O que é um meteoroide?", "resposta": "Pequeno corpo que orbita o Sol, que pode se tornar meteoro ao entrar na atmosfera"},
+    
+    {"pergunta": "Quem foi Ibn Sina?", "resposta": "Médico e filósofo persa, conhecido como Avicena"},
+    {"pergunta": "O que é a bioinformática?", "resposta": "Aplicação de informática para análise de dados biológicos"},
+    {"pergunta": "Qual é a capital da Finlândia?", "resposta": "Helsinque"},
+    {"pergunta": "Quem foi Tycho Brahe?", "resposta": "Astrônomo dinamarquês que fez observações precisas das estrelas"},
+    {"pergunta": "O que é a eletroforese?", "resposta": "Técnica que separa moléculas carregadas usando campo elétrico"},
+    {"pergunta": "Quem inventou o rádio?", "resposta": "Guglielmo Marconi"},
+    {"pergunta": "O que é a dopamina?", "resposta": "Neurotransmissor relacionado ao prazer e motivação"},
+    {"pergunta": "Quem foi Chien-Shiung Wu?", "resposta": "Física experimental chinesa-americana que contribuiu para a física nuclear"},
+    {"pergunta": "Qual é a capital da Grécia?", "resposta": "Atenas"},
+    {"pergunta": "O que é a tectônica de placas oceânicas?", "resposta": "Movimento das placas que formam o fundo dos oceanos"},
+    {"pergunta": "Quem foi Eratóstenes?", "resposta": "Matemático grego que calculou a circunferência da Terra"},
+    {"pergunta": "O que é a teoria das cordas?", "resposta": "Hipótese que descreve partículas fundamentais como cordas vibrantes"},
+    {"pergunta": "Quem foi Niels Bohr?", "resposta": "Físico dinamarquês que desenvolveu o modelo atômico com níveis de energia"},
+    {"pergunta": "O que é a velocidade terminal?", "resposta": "Velocidade máxima atingida por um objeto em queda livre"},
+    {"pergunta": "Quem foi Henri Becquerel?", "resposta": "Descobridor da radioatividade natural"},
+    {"pergunta": "O que é a quimioterapia?", "resposta": "Tratamento contra câncer usando substâncias químicas"},
+    {"pergunta": "Quem foi Al-Khwarizmi?", "resposta": "Matemático persa considerado o pai da álgebra"},
+    {"pergunta": "O que é a camada de astrosfera?", "resposta": "Região da atmosfera que contém a maior parte do gás ionizado"},
+    {"pergunta": "Quem foi Rachel Carson?", "resposta": "Bióloga e escritora que alertou sobre os perigos dos pesticidas"},
+    {"pergunta": "O que é a lei de Boyle?", "resposta": "Relação entre pressão e volume de um gás a temperatura constante"},
+    {"pergunta": "Quem foi Dimitri Mendeleev?", "resposta": "Químico russo que criou a tabela periódica dos elementos"},
+    {"pergunta": "O que é a síndrome de Marfan?", "resposta": "Doença genética que afeta tecido conectivo"},
+    {"pergunta": "Quem foi Ibn al-Haytham?", "resposta": "Físico e matemático árabe, pioneiro em óptica"},
+    {"pergunta": "O que é a aurora austral?", "resposta": "Luzes coloridas no céu do hemisfério sul causadas por partículas solares"},
+    {"pergunta": "Quem foi Alessandro Volta?", "resposta": "Inventor da pilha elétrica"},
+    {"pergunta": "O que é a isomeria química?", "resposta": "Fenômeno em que compostos têm mesma fórmula molecular, mas diferentes estruturas"},
+    {"pergunta": "Quem foi Erwin Schrödinger?", "resposta": "Físico que desenvolveu a equação de onda na mecânica quântica"},
+    {"pergunta": "O que é a corrente de jato?", "resposta": "Ventos fortes que se movem rapidamente na atmosfera superior"},
+    {"pergunta": "Quem foi Henri Poincaré?", "resposta": "Matemático francês que contribuiu para topologia e teoria do caos"},
+    {"pergunta": "O que é a ionosfera?", "resposta": "Camada da atmosfera carregada de íons que reflete ondas de rádio"},
+    {"pergunta": "Quem foi Dmitri Ivanovich Mendeléyev?", "resposta": "Químico russo que organizou os elementos químicos em tabela periódica"},
+    {"pergunta": "O que é a velocidade de deriva?", "resposta": "Velocidade média de partículas carregadas em um campo elétrico"},
+    {"pergunta": "Quem foi Mary Anning?", "resposta": "Paleontóloga inglesa famosa por descobertas de fósseis de dinossauros"},
+    {"pergunta": "Qual é a capital do Vietnã?", "resposta": "Hanói"},
+    {"pergunta": "O que é a camada de mesosfera?", "resposta": "Camada da atmosfera entre a estratosfera e a termosfera"},
+    {"pergunta": "Quem foi Tycho Brahe?", "resposta": "Astrônomo dinamarquês que fez observações precisas das estrelas"},
+    {"pergunta": "O que é a energia de ativação?", "resposta": "Energia mínima necessária para iniciar uma reação química"},
+    {"pergunta": "Quem inventou o microscópio composto?", "resposta": "Zacharias Janssen"},
+    {"pergunta": "Qual é a capital da Nigéria?", "resposta": "Abuja"},
+    {"pergunta": "quem foi ip", "resposta": "ip"},
+  {"pergunta": "Por que contratar hackers de chapéu branco pode ajudar na segurança de uma empresa?", "resposta": "Porque eles identificam falhas exploráveis antes que hackers maliciosos as utilizem, permitindo corrigir vulnerabilidades preventivamente."},
+  {"pergunta": "O que é crowdsourcing em segurança?", "resposta": "É a prática de contratar hackers independentes por meio de plataformas intermediárias, como HackerOne ou Bugcrowd, para realizar testes de penetração e divulgar vulnerabilidades."},
+  {"pergunta": "Quais serviços as empresas de crowdsourcing oferecem?", "resposta": "Programas de recompensas por falhas, testes de penetração e divulgação de vulnerabilidades."},
+  {"pergunta": "Qual o risco de usar crowdsourcing sem intermediários confiáveis?", "resposta": "O risco é que hackers sem experiência ou mal-intencionados usem as informações descobertas para explorar os sistemas em vez de reportar falhas."},
+  {"pergunta": "O que é phishing?", "resposta": "É um ataque de engenharia social que engana usuários para revelar informações confidenciais, como senhas ou dados bancários."},
+  {"pergunta": "Como funciona um ataque de phishing por e-mail?", "resposta": "O atacante envia um e-mail disfarçado de confiável com um link fraudulento, que leva a uma página falsa ou ativa scripts maliciosos."},
+  {"pergunta": "Quais danos o phishing pode causar?", "resposta": "Pode levar ao roubo de identidade, perda financeira, compras não autorizadas e abertura de portas para ataques mais avançados, como APTs."},
+  {"pergunta": "O que é phishing direcionado?", "resposta": "É uma forma avançada de phishing que mira empresas ou pessoas específicas, exigindo conhecimento prévio sobre o alvo."},
+  {"pergunta": "Como se proteger de ataques de phishing?", "resposta": "Usar autenticação de dois fatores (2FA), aplicar políticas rígidas de senhas, realizar trocas regulares de credenciais e promover campanhas de conscientização."},
+  {"pergunta": "O que é uma Ameaça Persistente Avançada (APT)?", "resposta": "É uma intrusão prolongada em uma rede, onde o invasor permanece oculto para roubar informações sensíveis ou sabotar sistemas."},
+  {"pergunta": "Quais são os principais danos de uma APT?", "resposta": "Roubo de propriedade intelectual, comprometimento de informações sensíveis, sabotagem de infraestrutura crítica e controle total de sistemas."},
+  {"pergunta": "Quais são as fases de uma APT?", "resposta": "Comprometimento inicial (via phishing, injeção SQL ou DDoS), movimentação lateral dentro da rede e extração sigilosa dos dados coletados."},
+  {"pergunta": "Como detectar e mitigar uma APT?", "resposta": "Monitorar tráfego interno e externo, usar firewalls de aplicação web, aplicar listas de permissões, atualizar softwares e treinar colaboradores para evitar engenharia social."},
+  {"pergunta": "O que é um teste de penetração?", "resposta": "É um ataque simulado contra sistemas de TI para identificar vulnerabilidades exploráveis antes que atacantes reais o façam."},
+  {"pergunta": "Quais são as fases de um teste de penetração?", "resposta": "Planejamento e reconhecimento, análise estática e dinâmica, ganho de acesso, manutenção de acesso e geração de relatório final."},
+  {"pergunta": "Qual a diferença entre teste externo e interno?", "resposta": "O teste externo simula ataques da internet (como em sites e e-mails), enquanto o interno simula um ataque feito por alguém com acesso à rede corporativa."},
+  {"pergunta": "O que é um teste às cegas?", "resposta": "É quando apenas o nome da empresa é fornecido ao analista, simulando um ataque real para verificar como a defesa responde."},
+  {"pergunta": "Como evitar cair em ataques de engenharia social?", "resposta": "Desconfiar de e-mails suspeitos, não clicar em links desconhecidos, evitar downloads estranhos e verificar sempre a autenticidade das solicitações recebidas."},
+  {"pergunta": "O que é contra-hacking?", "resposta": "É a prática de retaliar contra ataques, como worms ou vírus, tentando desativá-los ou neutralizá-los em sistemas já infectados."},
+  {"pergunta": "Por que o contra-hacking é considerado uma área cinzenta?", "resposta": "Porque envolve invadir sistemas infectados para limpá-los sem permissão dos donos, o que pode ser visto como ilegal apesar de ter intenção defensiva."},
+  {"pergunta": "Qual exemplo histórico de contra-hacking o livro cita?", "resposta": "O worm W32/Fizzer@MM, onde alguns operadores criaram código para desativar automaticamente a ameaça em máquinas infectadas."},
+  {"pergunta": "Qual o dilema ético do contra-hacking?", "resposta": "Se é correto ou não invadir dispositivos de terceiros, mesmo para limpá-los, já que isso pode violar a soberania do usuário e as leis."},
+  {"pergunta": "O que é hacking ético?", "resposta": "É a prática de usar técnicas de hacking de forma legal e autorizada para identificar vulnerabilidades em sistemas e ajudar empresas a corrigi-las."},
+  {"pergunta": "Qual a diferença entre hacker ético e hacker malicioso?", "resposta": "O hacker ético (chapéu branco) atua com permissão da empresa para melhorar a segurança, enquanto o hacker malicioso (chapéu preto) invade sem consentimento visando ganhos ilícitos."},
+  {"pergunta": "Quando surgiu o termo hacking ético?", "resposta": "Foi cunhado por John Patrick em 1995, embora a prática já existisse desde os anos 60 e 70."},
+  {"pergunta": "O que é a certificação CEH (Certified Ethical Hacker)?", "resposta": "É uma certificação reconhecida internacionalmente pelo EC-Council que valida os conhecimentos técnicos de profissionais em hacking ético."},
+  {"pergunta": "Por que a certificação CEH é importante?", "resposta": "Ela comprova que o profissional tem competências técnicas para atuar de forma ética e segura, sendo reconhecida por órgãos como o Departamento de Defesa dos EUA e a NSA."},
+  {"pergunta": "Quais são os passos que hackers seguem em um ciberataque bem-sucedido?", "resposta": "Eles passam por reconhecimento, acesso inicial, escalonamento de privilégios, movimentação lateral, exfiltração de dados e ofuscação de rastros."},
+  {"pergunta": "O que é reconhecimento em um ataque?", "resposta": "É a fase inicial em que o atacante coleta informações sobre a empresa, funcionários e sistemas para identificar pontos fracos."},
+  {"pergunta": "Como hackers obtêm acesso privilegiado?", "resposta": "Utilizando técnicas como tabelas rainbow, roubo de credenciais e exploração de falhas até conseguirem direitos de administrador."},
+  {"pergunta": "O que significa ofuscar rastros em ataques?", "resposta": "É o uso de técnicas como Trojans, spoofing, desinformação e limpeza de registros para confundir investigadores e dificultar a análise forense."},
+  {"pergunta": "O que é resposta a incidentes?", "resposta": "É o conjunto de medidas adotadas para mitigar ou prevenir ataques quando há tentativa de violação das políticas de segurança."},
+  {"pergunta": "Quais são as fases da resposta a incidentes?", "resposta": "Preparação, detecção/análise e atividade pós-incidente, cada uma com políticas específicas de mitigação."},
+  {"pergunta": "Qual a função de uma WAF na resposta a incidentes?", "resposta": "Analisar tráfego, bloquear ataques, registrar tentativas maliciosas e fornecer dados para ajustes de segurança."},
+  {"pergunta": "O que deve ser feito após um incidente?", "resposta": "Revisar registros, ajustar regras de firewall, implementar novas políticas de segurança e testar novamente vulnerabilidades."},
+  {"pergunta": "O que é DNSSEC?", "resposta": "É um conjunto de extensões que adiciona assinaturas digitais ao DNS, garantindo autenticidade e integridade das respostas."},
+  {"pergunta": "Como o DNSSEC protege contra ataques?", "resposta": "Ele evita que dados sejam alterados no caminho, mitigando ataques como DNS spoofing e exfiltração via DNS."},
+  {"pergunta": "O que é o registro DNSKEY?", "resposta": "É um tipo de registro que armazena a chave pública usada para validar assinaturas digitais em DNSSEC."},
+  {"pergunta": "Qual limitação do DNSSEC?", "resposta": "Ele não protege contra ataques de DDoS e pode até amplificar efeitos por aumentar o tamanho das respostas DNS."},
+  {"pergunta": "O que é um ataque de XSS refletido?", "resposta": "É quando um atacante injeta scripts maliciosos em uma aplicação web e o código é refletido no navegador da vítima via link."},
+  {"pergunta": "Qual a diferença entre XSS refletido e armazenado?", "resposta": "No refletido, o script é ativado por um link temporário; no armazenado, o código malicioso é salvo no site e afeta vários usuários."},
+  {"pergunta": "Quais informações um atacante pode roubar em XSS?", "resposta": "Cookies de sessão, dados de login, informações pessoais e até controle de contas da vítima."},
+  {"pergunta": "Como se proteger contra XSS?", "resposta": "Usuários devem evitar links suspeitos e administradores devem usar WAFs, sanitizar entradas e aplicar filtros de segurança."},
+  {"pergunta": "O que é detecção de intrusão?", "resposta": "É a prática de identificar ataques em andamento por meio de sistemas IDS que monitoram tráfego e atividades suspeitas."},
+  {"pergunta": "O que é prevenção de intrusão?", "resposta": "É a ação proativa de bloquear ataques antes que aconteçam, usando sistemas IPS que removem pacotes maliciosos."},
+  {"pergunta": "Quais técnicas um IDS usa para detectar ameaças?", "resposta": "Comparação de arquivos com assinaturas de malware, análise de padrões maliciosos e monitoramento de comportamento de usuários."},
+  {"pergunta": "Qual a principal limitação de um IDS?", "resposta": "Ele só detecta ameaças já conhecidas, não protegendo contra ataques novos ou ainda não catalogados."},
+  {"pergunta": "O que é uma varredura de ping?", "resposta": "É uma técnica usada para identificar quais dispositivos estão ativos em uma rede, enviando pacotes ICMP e aguardando respostas."},
+  {"pergunta": "Para que serve a varredura de ping em hacking?", "resposta": "Ela ajuda o atacante a mapear a rede e escolher alvos potenciais para exploração."},
+  {"pergunta": "Como proteger a rede contra varredura de ping?", "resposta": "Configurando firewalls para bloquear pacotes ICMP suspeitos e monitorando atividades incomuns de rede."},
+  {"pergunta": "O que é roubo de clique?", "resposta": "É uma técnica em que o usuário é enganado para clicar em um link ou botão falso, que executa ações indesejadas sem que ele perceba."},
+  {"pergunta": "Quais danos o roubo de clique pode causar?", "resposta": "Pode redirecionar usuários a sites maliciosos, instalar malware ou gerar lucros ilegais com publicidade."},
+  {"pergunta": "Como se prevenir contra o roubo de clique?", "resposta": "Evitar clicar em anúncios suspeitos, usar bloqueadores de scripts e navegar apenas em sites confiáveis."},
+  {"pergunta": "O que é engenharia social?", "resposta": "É a manipulação psicológica de pessoas para que revelem informações confidenciais ou realizem ações que comprometem a segurança."},
+  {"pergunta": "Quais são exemplos de engenharia social?", "resposta": "Phishing, pretexting, baiting e ataques em que criminosos fingem ser colegas ou autoridades."},
+  {"pergunta": "Como evitar cair em engenharia social?", "resposta": "Desconfiar de pedidos urgentes, verificar a identidade de quem solicita informações e treinar funcionários sobre segurança."},
+  {"pergunta": "O que é PCI DSS?", "resposta": "É um padrão de segurança que define requisitos para proteger dados de cartões de crédito em empresas que processam pagamentos."},
+  {"pergunta": "Quais são alguns requisitos do PCI DSS?", "resposta": "Criptografar dados sensíveis, implementar firewalls, controlar acessos e monitorar redes regularmente."},
+  {"pergunta": "Quem precisa seguir o PCI DSS?", "resposta": "Todas as empresas que armazenam, processam ou transmitem informações de cartões de pagamento."},
+  {"pergunta": "O que é um ataque de backdoor?", "resposta": "É quando um invasor instala um acesso oculto em um sistema, permitindo entrar novamente sem ser detectado."},
+  {"pergunta": "Qual o objetivo de um backdoor?", "resposta": "Manter acesso persistente ao sistema para roubo de dados, instalação de malware ou controle remoto."},
+  {"pergunta": "Como proteger sistemas contra backdoors?", "resposta": "Manter softwares atualizados, usar antivírus, monitorar logs e restringir privilégios de usuários."},
+
+  {"pergunta": "O que é a norma ISO/IEC 27001?", "resposta": "É um padrão internacional para gestão da segurança da informação que define requisitos para implementar e manter um sistema de gestão seguro."},
+  {"pergunta": "Qual o objetivo da ISO/IEC 27001?", "resposta": "Proteger informações confidenciais, reduzir riscos de segurança e garantir a continuidade dos negócios."},
+  {"pergunta": "Que medidas a ISO/IEC 27001 sugere?", "resposta": "Políticas de segurança, gestão de acessos, controles técnicos e revisões periódicas de riscos."},
+  {"pergunta": "Quais são os principais tipos de malware?", "resposta": "Vírus, worms, trojans, ransomware, spyware, adware e rootkits."},
+  {"pergunta": "Qual a diferença entre vírus e worm?", "resposta": "Um vírus precisa de um arquivo hospedeiro para se espalhar, enquanto o worm se replica sozinho pela rede."},
+  {"pergunta": "O que é ransomware?", "resposta": "É um tipo de malware que bloqueia ou criptografa arquivos da vítima e exige pagamento para liberá-los."},
+  {"pergunta": "O que é segurança da Internet das Coisas (IoT)?", "resposta": "É o conjunto de práticas para proteger dispositivos conectados, como câmeras, sensores e eletrodomésticos inteligentes."},
+  {"pergunta": "Quais riscos a IoT apresenta?", "resposta": "Dispositivos mal configurados podem ser explorados como pontos de entrada em redes maiores ou usados em ataques DDoS."},
+  {"pergunta": "Como melhorar a segurança de dispositivos IoT?", "resposta": "Atualizar firmwares, alterar senhas padrão, segmentar redes e monitorar tráfego anormal."},
+  {"pergunta": "O que é roubo de servidor de DNS?", "resposta": "É um ataque em que criminosos assumem o controle de um servidor DNS para redirecionar usuários a sites falsos."},
+  {"pergunta": "Quais consequências do roubo de DNS?", "resposta": "Roubo de credenciais, instalação de malware e comprometimento da confiança do usuário."},
+  {"pergunta": "Como se proteger contra o roubo de DNS?", "resposta": "Usar DNSSEC, monitorar alterações em registros DNS e configurar autenticação forte para administradores."},
+  {"pergunta": "O que é um ataque CSRF?", "resposta": "É quando um invasor engana o usuário para executar ações indesejadas em um site no qual ele já está autenticado."},
+  {"pergunta": "Qual exemplo de ataque CSRF?", "resposta": "Um link malicioso que, ao ser clicado, faz o navegador enviar requisições não autorizadas, como transferências bancárias."},
+  {"pergunta": "Como mitigar ataques CSRF?", "resposta": "Implementar tokens de verificação, validar origens de requisições e usar autenticação multifator."},
+  {"pergunta": "O que é injeção SQL?", "resposta": "É uma vulnerabilidade em aplicações que permite a um atacante inserir comandos SQL maliciosos em consultas ao banco de dados."},
+  {"pergunta": "Quais danos uma injeção SQL pode causar?", "resposta": "Roubo de dados, alteração de registros, exclusão de informações e até controle total do banco de dados."},
+  {"pergunta": "Como prevenir injeção SQL?", "resposta": "Usar consultas parametrizadas, aplicar validação de entrada e restringir privilégios do banco."},
+  {"pergunta": "O que é spoofing de DNS?", "resposta": "É um ataque em que respostas falsas de DNS são enviadas ao usuário, redirecionando-o a sites maliciosos."},
+  {"pergunta": "Qual o objetivo do DNS spoofing?", "resposta": "Enganar usuários para que revelem credenciais ou baixem malware acreditando estar em um site legítimo."},
+  {"pergunta": "Como mitigar DNS spoofing?", "resposta": "Usando DNSSEC, criptografia e monitoramento de tráfego DNS."},
+  {"pergunta": "Quais são algumas ferramentas de hacking ético?", "resposta": "Nmap, Metasploit, Wireshark, John the Ripper, Burp Suite e Aircrack-ng."},
+  {"pergunta": "Para que serve o Nmap?", "resposta": "É usado para mapear redes, identificar hosts ativos e serviços em execução."},
+  {"pergunta": "Qual a função do Metasploit?", "resposta": "Executar exploits conhecidos contra sistemas vulneráveis em testes de penetração."},
+  {"pergunta": "O que é web scraping?", "resposta": "É a extração automatizada de informações de sites usando scripts e ferramentas específicas."},
+  {"pergunta": "Quais os riscos do web scraping?", "resposta": "Pode violar termos de uso de sites, consumir recursos excessivos do servidor e expor dados sensíveis."},
+  {"pergunta": "Como se proteger contra scraping malicioso?", "resposta": "Usar captchas, limitar requisições por IP e monitorar acessos suspeitos."},
+  {"pergunta": "O que é um ataque Man-in-the-Middle (MITM)?", "resposta": "É quando um invasor intercepta a comunicação entre duas partes para espionar, modificar ou roubar informações."},
+  {"pergunta": "Qual exemplo de ataque MITM?", "resposta": "Intercepção de tráfego em uma rede Wi-Fi pública para roubo de credenciais bancárias."},
+  {"pergunta": "Como prevenir ataques MITM?", "resposta": "Usando criptografia forte (HTTPS, VPN), certificados digitais e redes seguras."},
+
+  {"pergunta": "O que é phishing direcionado (spear phishing)?", "resposta": "É uma forma de phishing altamente personalizada que foca em uma empresa ou indivíduo específico, usando informações reais para enganar a vítima."},
+  {"pergunta": "Por que o spear phishing é mais perigoso?", "resposta": "Porque tem maiores chances de sucesso, já que as mensagens parecem legítimas e específicas para o alvo."},
+  {"pergunta": "Como se proteger contra spear phishing?", "resposta": "Treinamento de funcionários, uso de autenticação multifator e monitoramento de e-mails suspeitos."},
+  {"pergunta": "O que é um rootkit?", "resposta": "É um tipo de malware projetado para se esconder profundamente em um sistema, garantindo acesso privilegiado sem ser detectado."},
+  {"pergunta": "Quais riscos um rootkit apresenta?", "resposta": "Permite controle remoto, roubo de informações e ocultação de outros malwares."},
+  {"pergunta": "Como detectar rootkits?", "resposta": "Com ferramentas especializadas de análise forense e antivírus avançados."},
+  {"pergunta": "O que é inclusão remota de arquivo (RFI)?", "resposta": "É uma vulnerabilidade em aplicações que permite a um atacante incluir arquivos hospedados remotamente para execução no servidor."},
+  {"pergunta": "Quais os impactos de um ataque RFI?", "resposta": "Execução remota de código, instalação de backdoors e comprometimento total do servidor."},
+  {"pergunta": "Como evitar RFI?", "resposta": "Validando entradas, desativando funções inseguras em servidores e aplicando patches de segurança."},
+  {"pergunta": "O que é malware publicitário (adware)?", "resposta": "É um software que exibe anúncios indesejados no dispositivo da vítima, muitas vezes sem consentimento."},
+  {"pergunta": "Quais problemas o adware pode causar?", "resposta": "Degradação do desempenho do sistema, coleta de dados pessoais e redirecionamento a sites maliciosos."},
+  {"pergunta": "Como remover adware?", "resposta": "Com antivírus atualizados, programas de remoção dedicados e boas práticas de instalação de softwares."},
+  {"pergunta": "O que é avaliação de vulnerabilidade?", "resposta": "É o processo de identificar, classificar e priorizar falhas de segurança em sistemas e redes."},
+  {"pergunta": "Qual a diferença entre avaliação de vulnerabilidade e teste de penetração?", "resposta": "A avaliação identifica falhas, enquanto o teste de penetração simula ataques reais para explorar essas falhas."},
+  {"pergunta": "Quais ferramentas são usadas em avaliação de vulnerabilidade?", "resposta": "Nessus, OpenVAS e Qualys são exemplos comuns."},
+  {"pergunta": "O que é um exploit de zero-day?", "resposta": "É uma falha de segurança desconhecida pelo fabricante e que ainda não possui correção disponível, explorada por atacantes."},
+  {"pergunta": "Por que exploits de zero-day são perigosos?", "resposta": "Porque não existem patches ou proteções específicas disponíveis no momento em que são explorados."},
+  {"pergunta": "Como mitigar riscos de zero-day?", "resposta": "Manter sistemas atualizados, usar monitoramento avançado e aplicar defesa em camadas."},
+  {"pergunta": "O que é gestão de falhas (vulnerabilidades)?", "resposta": "É o processo contínuo de identificar, avaliar, priorizar e corrigir falhas de segurança em sistemas."},
+  {"pergunta": "Por que a gestão de falhas é importante?", "resposta": "Porque reduz a superfície de ataque e garante que vulnerabilidades não fiquem abertas por longos períodos."},
+  {"pergunta": "Quais etapas envolvem a gestão de falhas?", "resposta": "Descoberta de vulnerabilidades, análise de risco, aplicação de patches e monitoramento contínuo."},
+  {"pergunta": "O que é segurança de aplicações web?", "resposta": "É o conjunto de práticas e ferramentas usadas para proteger aplicações contra ataques e falhas comuns."},
+  {"pergunta": "Quais são as vulnerabilidades mais comuns em aplicações web?", "resposta": "Injeção SQL, XSS, CSRF, autenticação fraca e configuração incorreta de segurança."},
+  {"pergunta": "Como melhorar a segurança de aplicações web?", "resposta": "Usando validação de entradas, autenticação forte, criptografia, testes de penetração e WAFs."},
+  {"pergunta": "Qual a principal conclusão do livro Bases de Hacking?", "resposta": "Que entender as técnicas usadas por hackers, tanto maliciosos quanto éticos, é essencial para construir sistemas mais seguros."},
+  {"pergunta": "O que o livro enfatiza sobre a segurança digital?", "resposta": "Que ela deve ser um processo contínuo, combinando tecnologia, políticas e conscientização humana."},
+  {"pergunta": "Qual é o papel do hacking ético segundo o livro?", "resposta": "Ele é fundamental para identificar e corrigir falhas antes que sejam exploradas por criminosos."},
+
+  {
+    "pergunta": "Por que aprender React?",
+    "resposta": "Porque é uma biblioteca popular para construir interfaces modernas, com foco em performance, reutilização de componentes, grande comunidade e ecossistema flexível."
+  },
+  {
+    "pergunta": "React é um framework?",
+    "resposta": "Não, React é uma biblioteca focada apenas na camada de visão (View) do padrão MVC."
+  },
+  {
+    "pergunta": "Qual a principal diferença entre React e frameworks como Angular ou Ember?",
+    "resposta": "Frameworks tentam resolver várias coisas de uma vez, enquanto React lida apenas com a construção de views, permitindo integrar outras ferramentas conforme necessário."
+  },
+  {
+    "pergunta": "O que significa SPA?",
+    "resposta": "SPA significa Single Page Application, um tipo de aplicação que carrega uma única página HTML e atualiza seu conteúdo dinamicamente sem recarregar a página."
+  },
+  {
+    "pergunta": "Quais empresas utilizam React?",
+    "resposta": "Empresas como Facebook, Airbnb e Netflix utilizam React em produção."
+  },
+  {
+    "pergunta": "O que é JSX?",
+    "resposta": "É uma extensão de sintaxe que permite misturar HTML e JavaScript no mesmo arquivo, usada para escrever a estrutura de componentes React."
+  },
+  {
+    "pergunta": "O que é o ReactDOM?",
+    "resposta": "É o pacote que conecta React ao DOM do navegador, permitindo renderizar componentes React em elementos HTML."
+  },
+  {
+    "pergunta": "Quais conhecimentos prévios ajudam no aprendizado de React?",
+    "resposta": "Conhecimentos em HTML, CSS e JavaScript ES5 são recomendados. O livro também ensina ES6 ao longo do caminho."
+  },
+  {
+    "pergunta": "É necessário saber ES6 para aprender React?",
+    "resposta": "Não é obrigatório, mas React aproveita muitos recursos do ES6. O livro faz uma transição gradual do ES5 para o ES6."
+  },
+  {
+    "pergunta": "Quais ferramentas são necessárias para acompanhar o livro?",
+    "resposta": "Um editor de código, terminal, Node.js e npm instalados. Git e GitHub são opcionais."
+  },
+  {
+    "pergunta": "Para que serve o Node.js?",
+    "resposta": "Node.js permite rodar JavaScript fora do navegador e é usado como base para executar ferramentas de desenvolvimento e servidores."
+  },
+  {
+    "pergunta": "Para que serve o npm?",
+    "resposta": "npm (Node Package Manager) é um gerenciador de pacotes que instala e gerencia dependências de projetos em JavaScript."
+  },
+  {
+    "pergunta": "Como verificar a versão do Node instalada?",
+    "resposta": "Executando 'node --version' no terminal."
+  },
+  {
+    "pergunta": "Como verificar a versão do npm instalada?",
+    "resposta": "Executando 'npm --version' no terminal."
+  },
+  {
+    "pergunta": "Como instalar pacotes globalmente com npm?",
+    "resposta": "Usando 'npm install -g nome_do_pacote'."
+  },
+  {
+    "pergunta": "Como instalar pacotes localmente com npm?",
+    "resposta": "Usando 'npm install nome_do_pacote'. O pacote será adicionado em node_modules e listado no package.json."
+  },
+  {
+    "pergunta": "Qual a diferença entre instalação global e local de pacotes?",
+    "resposta": "Pacotes globais ficam disponíveis em qualquer lugar do sistema. Pacotes locais ficam restritos ao projeto onde foram instalados."
+  },
+  {
+    "pergunta": "O que é o arquivo package.json?",
+    "resposta": "É o arquivo de configuração de um projeto Node que lista suas dependências e scripts."
+  },
+  {
+    "pergunta": "Como criar um package.json com configurações padrão?",
+    "resposta": "Rodando 'npm init -y'."
+  },
+  {
+    "pergunta": "O que acontece se eu compartilhar meu projeto sem a pasta node_modules?",
+    "resposta": "Outros desenvolvedores podem instalar todas as dependências listadas no package.json rodando 'npm install'."
+  },
+  {
+    "pergunta": "O que significa instalar um pacote como dependência de desenvolvimento?",
+    "resposta": "Significa usar 'npm install --save-dev nome_do_pacote'. Esses pacotes não são usados em produção, apenas durante o desenvolvimento."
+  },
+  {
+    "pergunta": "Exemplo de dependência de desenvolvimento?",
+    "resposta": "Bibliotecas de teste como Jest ou ferramentas de build."
+  },
+  {
+    "pergunta": "O que é Yarn?",
+    "resposta": "É um gerenciador de pacotes alternativo ao npm, criado pelo Facebook, que também usa package.json mas possui comandos próprios."
+  },
+  {
+    "pergunta": "Como instalar React usando CDN?",
+    "resposta": "Incluindo scripts do React e do ReactDOM via tag <script> no HTML."
+  },
+  {
+    "pergunta": "Por que não usar apenas CDN em projetos reais?",
+    "resposta": "Porque não permite usar JSX nem ES6 diretamente. É necessário configurar ferramentas como Babel, o que complica para iniciantes."
+  },
+  {
+    "pergunta": "O que é Babel?",
+    "resposta": "É um compilador que converte código ES6 e JSX em JavaScript que navegadores entendem."
+  },
+  {
+    "pergunta": "Qual solução o Facebook criou para facilitar a configuração de projetos React?",
+    "resposta": "A ferramenta create-react-app, que cria um projeto pronto para uso sem precisar configurar Babel ou Webpack manualmente."
+  },
+  {
+    "pergunta": "Como instalar o create-react-app globalmente?",
+    "resposta": "Rodando 'npm install -g create-react-app'."
+  },
+  {
+    "pergunta": "Como criar um novo projeto React com create-react-app?",
+    "resposta": "Rodando 'create-react-app nome_do_projeto' no terminal."
+  },
+  {
+    "pergunta": "Quais scripts vêm configurados no create-react-app?",
+    "resposta": "'npm start' para rodar a aplicação, 'npm test' para rodar testes e 'npm run build' para gerar versão de produção."
+  },
+  {
+    "pergunta": "O que significa a pasta src em um projeto React?",
+    "resposta": "É onde ficam os arquivos principais da aplicação, como App.js e index.js."
+  },
+  {
+    "pergunta": "Qual é o ponto de entrada padrão de uma aplicação React?",
+    "resposta": "O arquivo src/index.js."
+  },
+  {
+    "pergunta": "Onde a aplicação React é montada no HTML?",
+    "resposta": "No elemento com id='root' definido no arquivo public/index.html."
+  },
+  {
+    "pergunta": "Qual comando inicia a aplicação em http://localhost:3000?",
+    "resposta": "'npm start'."
+  },
+  {
+    "pergunta": "Qual comando prepara a aplicação para produção?",
+    "resposta": "'npm run build'."
+  },
+  {
+    "pergunta": "O que é o arquivo README.md criado no projeto?",
+    "resposta": "É um arquivo em Markdown que contém instruções básicas sobre o projeto."
+  },
+  {
+    "pergunta": "O que é o arquivo .gitignore?",
+    "resposta": "Um arquivo que lista pastas e arquivos que não devem ser enviados para o repositório Git, como node_modules."
+  },
+  {
+    "pergunta": "O que é o Linux?",
+    "resposta": "Linux é um sistema operacional livre e de código aberto, baseado no kernel Linux criado por Linus Torvalds em 1991."
+  },
+  {
+    "pergunta": "Qual a diferença entre Linux e GNU/Linux?",
+    "resposta": "GNU/Linux é a combinação do kernel Linux com as ferramentas do projeto GNU. 'Linux' sozinho se refere apenas ao kernel."
+  },
+  {
+    "pergunta": "O que significa software livre?",
+    "resposta": "Software livre é aquele que pode ser executado, estudado, modificado e distribuído livremente, sem restrições proprietárias."
+  },
+  {
+    "pergunta": "Quem criou o kernel Linux?",
+    "resposta": "O kernel Linux foi criado por Linus Torvalds em 1991 como um projeto pessoal."
+  },
+  {
+    "pergunta": "O que é uma distribuição Linux?",
+    "resposta": "Distribuição Linux é um sistema operacional completo baseado no kernel Linux, que inclui utilitários, gerenciadores de pacotes e aplicativos, como Ubuntu, Debian e Fedora."
+  },
+  {
+    "pergunta": "Quais são alguns exemplos de distribuições Linux?",
+    "resposta": "Alguns exemplos são: Ubuntu, Debian, Fedora, CentOS, Arch Linux, Linux Mint e openSUSE."
+  },
+  {
+    "pergunta": "Qual a diferença entre Linux e Windows?",
+    "resposta": "Linux é livre, de código aberto, personalizável e usado amplamente em servidores. Windows é proprietário, de código fechado, com foco em desktops e experiência de usuário integrada."
+  },
+  {
+    "pergunta": "Por que muitas pessoas usam Linux em servidores?",
+    "resposta": "Porque Linux é estável, seguro, flexível e gratuito, tornando-o ideal para servidores e ambientes de alta disponibilidade."
+  },
+  {
+    "pergunta": "Quais são os principais componentes de um sistema Linux?",
+    "resposta": "Os principais componentes são: kernel, shell, sistema de arquivos, bibliotecas, utilitários básicos e ambiente gráfico (opcional)."
+  },
+  {
+    "pergunta": "O que é o kernel Linux?",
+    "resposta": "É o núcleo do sistema operacional, responsável pela comunicação entre hardware e software."
+  },
+  {
+    "pergunta": "O que é o GNU?",
+    "resposta": "GNU é um projeto iniciado por Richard Stallman que fornece ferramentas de software livre, como compiladores, bibliotecas e utilitários, usados em conjunto com o kernel Linux."
+  },
+  {
+    "pergunta": "Qual a função do shell no Linux?",
+    "resposta": "O shell é um interpretador de comandos que permite ao usuário interagir com o sistema operacional por meio de textos e scripts."
+  },
+  {
+    "pergunta": "O que é o Bash?",
+    "resposta": "Bash (Bourne Again SHell) é o shell mais popular no Linux, usado para executar comandos, scripts e interagir com o sistema."
+  },
+  {
+    "pergunta": "Qual a vantagem do Linux em relação à segurança?",
+    "resposta": "Linux é menos vulnerável a vírus e malwares, tem forte sistema de permissões e atualizações rápidas, o que o torna mais seguro."
+  },
+  {
+    "pergunta": "O que é uma distribuição leve de Linux?",
+    "resposta": "É uma versão do Linux projetada para rodar em computadores antigos ou com poucos recursos, como LXLE, Lubuntu e Puppy Linux."
+  },
+  {
+    "pergunta": "O que é o Linux Mint?",
+    "resposta": "Linux Mint é uma distribuição baseada no Ubuntu, fácil de instalar e usar, muito popular entre iniciantes e usuários do Windows 7."
+  },
+  {
+    "pergunta": "O que é o Debian?",
+    "resposta": "Debian é uma distribuição Linux estável e gratuita, conhecida por não incluir softwares proprietários e ser a base de várias outras distros."
+  },
+  {
+    "pergunta": "O que é o Ubuntu?",
+    "resposta": "Ubuntu é uma das distribuições Linux mais populares, moderna, fácil de instalar e com ampla comunidade de suporte."
+  },
+  {
+    "pergunta": "O que é o Fedora?",
+    "resposta": "Fedora é uma distribuição Linux voltada para trazer tecnologias mais recentes e experimentais, usada também como base para o Red Hat Enterprise Linux."
+  },
+  {
+    "pergunta": "O que é o openSUSE?",
+    "resposta": "openSUSE é uma distribuição Linux estável e poderosa, muito usada em ambientes de desenvolvimento e servidores."
+  },
+  {
+    "pergunta": "O que é o CentOS?",
+    "resposta": "CentOS é uma distribuição Linux baseada no Red Hat Enterprise Linux (RHEL), conhecida por sua estabilidade e uso em servidores."
+  },
+  {
+    "pergunta": "O que é o Manjaro?",
+    "resposta": "Manjaro é uma distribuição baseada no Arch Linux, mas mais amigável, equilibrando atualizações recentes com facilidade de uso."
+  },
+  {
+    "pergunta": "O que é o Arch Linux?",
+    "resposta": "Arch Linux é uma distribuição rolling release, altamente personalizável, mas indicada para usuários mais experientes."
+  },
+  {
+    "pergunta": "O que é o Elementary OS?",
+    "resposta": "Elementary OS é uma distribuição Linux baseada no Ubuntu, com foco em simplicidade e interface parecida com macOS."
+  },
+  {
+    "pergunta": "O que significa rodar o Linux em live USB?",
+    "resposta": "Significa executar o sistema Linux diretamente de um pendrive ou DVD sem instalá-lo no computador."
+  },
+  {
+    "pergunta": "O que é um ambiente de desktop no Linux?",
+    "resposta": "É a interface gráfica que organiza janelas, menus, painéis e ícones, como GNOME, KDE, XFCE, MATE e Cinnamon."
+  },
+  {
+    "pergunta": "O que é o GNOME?",
+    "resposta": "GNOME é um dos ambientes de desktop mais usados no Linux, conhecido pela simplicidade e foco em produtividade."
+  },
+  {
+    "pergunta": "O que é o KDE Plasma?",
+    "resposta": "KDE Plasma é um ambiente de desktop altamente personalizável e cheio de recursos visuais."
+  },
+  {
+    "pergunta": "O que é o XFCE?",
+    "resposta": "XFCE é um ambiente de desktop leve, ideal para computadores antigos ou com hardware limitado."
+  },
+  {
+    "pergunta": "O que é o Cinnamon?",
+    "resposta": "Cinnamon é o ambiente de desktop padrão do Linux Mint, projetado para ser familiar a usuários vindos do Windows."
+  },
+  {
+    "pergunta": "Como criar um USB bootável do Linux Mint compatível com UEFI?",
+    "resposta": "Você precisa de um pendrive vazio, a imagem ISO do Linux Mint e um programa como o Win32 Disk Imager. Depois de formatar o USB em FAT32, grava-se a ISO nele e desativa-se o Fast Boot no Windows para inicializar pelo pendrive."
+  },
+  {
+    "pergunta": "O que é UEFI?",
+    "resposta": "UEFI (Unified Extensible Firmware Interface) é um padrão moderno que substitui o BIOS, oferecendo inicialização mais rápida e maior segurança."
+  },
+  {
+    "pergunta": "Qual a diferença entre BIOS e UEFI?",
+    "resposta": "BIOS é o firmware mais antigo, com interface simples e suporte limitado. UEFI é mais moderno, suporta partições grandes, interfaces gráficas e recursos de segurança."
+  },
+  {
+    "pergunta": "O que é uma imagem ISO?",
+    "resposta": "Uma imagem ISO é um arquivo único que contém todos os dados de um disco, usado para criar mídias bootáveis como CDs, DVDs e pendrives."
+  },
+  {
+    "pergunta": "Como verificar se um dispositivo USB é detectado no Linux?",
+    "resposta": "Você pode usar comandos como `lsusb`, `dmesg | grep -i usb` ou `usb-devices` no terminal."
+  },
+  {
+    "pergunta": "Como corrigir problemas em uma porta USB no Linux?",
+    "resposta": "Tente outra porta, teste em outro computador, reinicie o Linux, verifique cabos e conectores e, se necessário, ajuste parâmetros no arquivo grub para energia USB."
+  },
+  {
+    "pergunta": "O que é o comando lsusb?",
+    "resposta": "É um comando do Linux que lista dispositivos USB conectados ao computador."
+  },
+  {
+    "pergunta": "Como reiniciar o Linux pode corrigir problemas de USB?",
+    "resposta": "Alguns notebooks têm economia de energia que desativa portas USB. Reiniciar reativa a energia e pode resolver o problema."
+  },
+  {
+    "pergunta": "O que é um driver de dispositivo?",
+    "resposta": "É um software que permite ao sistema operacional se comunicar com o hardware, como portas USB, impressoras e placas de rede."
+  },
+  {
+    "pergunta": "O Linux precisa instalar drivers USB manualmente?",
+    "resposta": "Na maioria dos casos, não. O Linux moderno já inclui suporte para a maioria dos dispositivos USB."
+  },
+
+  {
+    "pergunta": "Qual comando mostra a pasta atual no Linux?",
+    "resposta": "O comando `pwd` mostra o diretório atual em que o usuário está."
+  },
+  {
+    "pergunta": "Como listar arquivos e pastas em um diretório?",
+    "resposta": "Use o comando `ls`. Para ver arquivos ocultos, use `ls -a`."
+  },
+  {
+    "pergunta": "Como criar uma pasta no Linux?",
+    "resposta": "Use o comando `mkdir nomedapasta`."
+  },
+  {
+    "pergunta": "Como criar um arquivo vazio?",
+    "resposta": "Use o comando `touch nomedoarquivo`."
+  },
+  {
+    "pergunta": "Como mover ou renomear arquivos?",
+    "resposta": "Use o comando `mv`. Exemplo: `mv antigo.txt novo.txt`."
+  },
+  {
+    "pergunta": "Como copiar arquivos no Linux?",
+    "resposta": "Use o comando `cp`. Exemplo: `cp arquivo1.txt arquivo2.txt`."
+  },
+  {
+    "pergunta": "Como remover arquivos e pastas?",
+    "resposta": "Para arquivos use `rm arquivo.txt`. Para pastas use `rm -R nomedapasta`."
+  },
+  {
+    "pergunta": "O que é um link simbólico?",
+    "resposta": "É como um atalho que aponta para outro arquivo ou pasta."
+  },
+  {
+    "pergunta": "O que é um link rígido?",
+    "resposta": "É uma ligação direta entre dois nomes de arquivos ao mesmo conteúdo no disco."
+  },
+  {
+    "pergunta": "Como renomear arquivos em massa no Linux?",
+    "resposta": "Use o comando `rename expressão substituição arquivos`. Exemplo: `rename foto imagem *.jpg`."
+  },
+  {
+    "pergunta": "O que é um gerenciador de pacotes no Linux?",
+    "resposta": "É uma ferramenta que instala, atualiza, remove e gerencia softwares no sistema. Exemplos: APT, YUM, DNF, Pacman."
+  },
+  {
+    "pergunta": "Como instalar um software no Ubuntu usando terminal?",
+    "resposta": "Use `sudo apt install nomedopacote`."
+  },
+  {
+    "pergunta": "Como instalar pacotes .deb manualmente?",
+    "resposta": "Use `sudo dpkg -i arquivo.deb` e depois `sudo apt -f install` para corrigir dependências."
+  },
+  {
+    "pergunta": "Como abrir o manual de um comando?",
+    "resposta": "Use `man nomedocomando`. Exemplo: `man ls`."
+  },
+  {
+    "pergunta": "Qual a diferença entre terminal e shell?",
+    "resposta": "O terminal é o programa que abre a interface de texto. O shell é o interpretador de comandos dentro dele, como Bash ou Zsh."
+  },
+  {
+    "pergunta": "O que é um script de shell?",
+    "resposta": "É um arquivo com uma sequência de comandos do shell que pode ser executado automaticamente."
+  },
+  {
+    "pergunta": "Quais são alguns atalhos úteis no shell?",
+    "resposta": "CTRL + C (interrompe), CTRL + L (limpa a tela), CTRL + U (apaga até o cursor), CTRL + R (procura comando no histórico)."
+  },
+  {
+    "pergunta": "O que é o WSL?",
+    "resposta": "WSL (Windows Subsystem for Linux) é um recurso do Windows que permite rodar distribuições Linux dentro do próprio Windows."
+  },
+  {
+    "pergunta": "Quais as limitações do WSL?",
+    "resposta": "Ele não tem suporte nativo a interfaces gráficas e alguns softwares não funcionam corretamente."
+  },
+  {
+    "pergunta": "Qual a vantagem de usar o Ubuntu?",
+    "resposta": "O Ubuntu é fácil de usar, possui grande comunidade, excelente reconhecimento de hardware e vasto suporte a softwares."
+  }
+
+]
